@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TIC TAC TOE</title>
+    <link rel="Stylesheet" href="Resources/Styles/common.css" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="Resources/Scripts/AI.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="b" class="board">
+
+            <div id="0" class="box" >
+            </div>            
+            <div id="1" class="box" >
+            </div>            
+            <div id="2" class="box" >
+            </div>   
+            <div class="clear"></div>         
+            <div id="3" class="box" >
+            </div>            
+            <div id="4" class="box" >
+            </div>            
+            <div id="5" class="box" >
+            </div>            
+            <div class="clear"></div>  
+            <div id="6" class="box" >
+            </div>            
+            <div id="7" class="box" >
+            </div>             
+            <div id="8" class="box" >
+            </div>
+            <div class="clear"></div>  
+        </div>
+        <div class="form">
+            <form name="env selection" action="#" method="post" onsubmit="validate()">
+                <input type="text" class="fleft tex" id="p1name" placeholder="Player 1" name="p1" />
+                <input type="text" class="fleft tex" id="p2name" placeholder="Player 2" name="p2" />
+                <div class="clear"></div>
+                <input type="button" class="fleft startbtn" id="start" name="startbutton" value="start" class="button" />
+                <input type="button" class="fleft restartbtn" id="Button1" name="startbutton" value="Restart" class="button" />
+            </form>
+        </div>
+
+        <div class="clear"></div>
+        
+
+
+        <div id="history" class="history">
+            
+        </div>
+    </div>
+	
+</body>
+</html>
